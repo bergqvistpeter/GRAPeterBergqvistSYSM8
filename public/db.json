@@ -1,0 +1,489 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Margherita Pizza",
+      "description": "Classic pizza with fresh tomatoes, mozzarella cheese, and basil.",
+      "price": 75,
+      "image": "/images/margherita.png",
+      "category": "mains",
+      "vegetarian": true,
+      "orderCount": 2
+    },
+    {
+      "id": "2",
+      "name": "Diavola Pizza",
+      "description": "Spicy pizza with pepperoni, mozzarella cheese, and chili flakes.",
+      "price": 85,
+      "image": "/images/diavola.png",
+      "category": "mains",
+      "vegetarian": false,
+      "orderCount": 5
+    },
+    {
+      "id": "3",
+      "name": "Quattro Formaggi Pizza",
+      "description": "Rich pizza with four types of cheese: mozzarella, gorgonzola, parmesan, and goat cheese.",
+      "price": 95,
+      "image": "/images/quattro_formaggi.png",
+      "category": "mains",
+      "vegetarian": true,
+      "orderCount": 0
+    },
+    {
+      "id": "4",
+      "name": "Prosciutto e Funghi Pizza",
+      "description": "Savory pizza with prosciutto, mushrooms, and mozzarella cheese.",
+      "price": 90,
+      "image": "/images/prosciutto_funghi.png",
+      "category": "mains",
+      "vegetarian": false,
+      "orderCount": 2
+    },
+    {
+      "id": "5",
+      "name": "Veggetarian Pizza",
+      "description": "Delicious pizza with seasonal vegetables, mozzarella cheese, and pesto sauce.",
+      "price": 80,
+      "image": "/images/vegetarian.png",
+      "category": "mains",
+      "vegetarian": true,
+      "orderCount": 1
+    },
+    {
+      "id": "6",
+      "name": "Cappricciosa Pizza",
+      "description": "Hearty pizza with artichokes, olives, ham, and mozzarella cheese.",
+      "price": 85,
+      "image": "/images/capricciosa.png",
+      "category": "mains",
+      "vegetarian": false,
+      "orderCount": 1
+    },
+    {
+      "id": "7",
+      "name": "Spaghetti alla Carbonara",
+      "description": "Traditional Roman pasta with eggs, cheese, pancetta, and pepper.",
+      "price": 70,
+      "image": "/images/carbonara.png",
+      "category": "mains",
+      "vegetarian": false,
+      "orderCount": 3
+    },
+    {
+      "id": "8",
+      "name": "Tagliatelle al Ragù(Bolognese)",
+      "description": "Homemade tagliatelle pasta with a rich meat sauce.",
+      "price": 75,
+      "image": "/images/tagliatelle_ragu.png",
+      "category": "mains",
+      "vegetarian": false,
+      "orderCount": 1
+    },
+    {
+      "id": "9",
+      "name": "Penne all'Arrabbiata",
+      "description": "Spicy penne pasta with garlic, tomatoes, and chili peppers.",
+      "price": 65,
+      "image": "/images/penne_arrabbiata.png",
+      "category": "mains",
+      "vegetarian": true,
+      "orderCount": 1
+    },
+    {
+      "id": "10",
+      "name": "Linguine ai Frutti di Mare",
+      "description": "Linguine pasta with a mix of fresh seafood in a light tomato sauce.",
+      "price": 95,
+      "image": "/images/linguine_frutti_di_mare.png",
+      "category": "mains",
+      "vegetarian": false,
+      "orderCount": 1
+    },
+    {
+      "id": "11",
+      "name": "Gnocchi al Pesto",
+      "description": "Soft potato gnocchi tossed in a fragrant basil pesto sauce.",
+      "price": 80,
+      "image": "/images/gnocchi_pesto.png",
+      "category": "mains",
+      "vegetarian": true,
+      "orderCount": 4
+    },
+    {
+      "id": "12",
+      "name": "Lasagne alla Bolognese",
+      "description": "Layers of pasta with a rich meat sauce, béchamel, and cheese.",
+      "price": 90,
+      "image": "/images/lasagne_bolognese.png",
+      "category": "mains",
+      "vegetarian": false,
+      "orderCount": 1
+    },
+    {
+      "id": "13",
+      "name": "Risotto ai Funghi Porcini",
+      "description": "Creamy risotto with porcini mushrooms and parmesan cheese.",
+      "price": 85,
+      "image": "/images/risotto_funghi.png",
+      "category": "mains",
+      "vegetarian": true,
+      "orderCount": 1
+    },
+    {
+      "id": "14",
+      "name": "Risotto al Limone e Gamberi",
+      "description": "Lemon risotto with succulent shrimp and a hint of white wine.",
+      "price": 95,
+      "image": "/images/risotto_limone_gamberi.png",
+      "category": "mains",
+      "vegetarian": false,
+      "orderCount": 1
+    },
+    {
+      "id": "15",
+      "name": "Tiramisù",
+      "description": "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+      "price": 50,
+      "image": "/images/tiramisu.png",
+      "category": "desserts",
+      "vegetarian": true,
+      "orderCount": 14
+    },
+    {
+      "id": "16",
+      "name": "Panna Cotta ai Frutti di Bosco",
+      "description": "Creamy panna cotta topped with a mixed berry compote.",
+      "price": 55,
+      "image": "/images/panna_cotta.png",
+      "category": "desserts",
+      "vegetarian": true,
+      "orderCount": 2
+    },
+    {
+      "id": "17",
+      "name": "Cannoli Siciliani",
+      "description": "Crispy pastry shells filled with sweet ricotta cheese and chocolate chips.",
+      "price": 55,
+      "image": "/images/cannoli.png",
+      "category": "desserts",
+      "vegetarian": true,
+      "orderCount": 2
+    },
+    {
+      "id": "18",
+      "name": "Chianti Classico",
+      "description": "A full-bodied red wine from the Chianti region, perfect for pairing with rich dishes.",
+      "price": 120,
+      "image": "/images/chianti.png",
+      "category": "drinks",
+      "nonAlcoholic": false,
+      "orderCount": 3
+    },
+    {
+      "id": "19",
+      "name": "Barolo",
+      "description": "A prestigious red wine from the Piedmont region, known for its complex flavors.",
+      "price": 150,
+      "image": "/images/barolo.png",
+      "category": "drinks",
+      "nonAlcoholic": false,
+      "orderCount": 2
+    },
+    {
+      "id": "20",
+      "name": "Verdicchio dei Castelli di Jesi",
+      "description": "A crisp white wine with floral and citrus notes, ideal for seafood dishes.",
+      "price": 100,
+      "image": "/images/verdicchio.png",
+      "category": "drinks",
+      "nonAlcoholic": false,
+      "orderCount": 2
+    },
+    {
+      "id": "21",
+      "name": "Pinot Grigio delle Venezie",
+      "description": "A light and refreshing white wine with hints of pear and apple.",
+      "price": 90,
+      "image": "/images/pinot_grigio.png",
+      "category": "drinks",
+      "nonAlcoholic": false,
+      "orderCount": 0
+    },
+    {
+      "id": "22",
+      "name": "San Pellegrino Aranciata",
+      "description": "A sparkling orange beverage with a refreshing citrus flavor.",
+      "price": 40,
+      "image": "/images/san_pellegrino_aranciata.png",
+      "category": "drinks",
+      "nonAlcoholic": true,
+      "orderCount": 0
+    },
+    {
+      "id": "23",
+      "name": "San Pellegrino Limonata",
+      "description": "A sparkling lemonade with a zesty lemon flavor.",
+      "price": 40,
+      "image": "/images/san_pellegrino_limonata.png",
+      "category": "drinks",
+      "nonAlcoholic": true,
+      "orderCount": 2
+    },
+    {
+      "id": "24",
+      "name": "Pepsi",
+      "description": "Classic cola beverage with a bold and refreshing taste.",
+      "price": 30,
+      "image": "/images/pepsi.png",
+      "category": "drinks",
+      "nonAlcoholic": true,
+      "orderCount": 4
+    },
+    {
+      "id": "25",
+      "name": "Zingo Orange",
+      "description": "A tangy orange-flavored soft drink with a burst of citrus.",
+      "price": 30,
+      "image": "/images/zingo_orange.png",
+      "category": "drinks",
+      "nonAlcoholic": true,
+      "orderCount": 0
+    },
+    {
+      "id": "26",
+      "name": "Acqua Naturale",
+      "description": "Pure natural mineral water",
+      "price": 20,
+      "image": "/images/acqua_naturale.png",
+      "category": "drinks",
+      "nonAlcoholic": true,
+      "orderCount": 4
+    },
+    {
+      "id": "27",
+      "name": "Acqua Frizzante",
+      "description": "Sparkling mineral water with a refreshing fizz.",
+      "price": 20,
+      "image": "/images/acqua_frizzante.png",
+      "category": "drinks",
+      "nonAlcoholic": true,
+      "orderCount": 0
+    },
+    {
+      "id": "28",
+      "name": "Espresso",
+      "description": "Rich and bold Italian coffee served in a small cup.",
+      "price": 25,
+      "image": "/images/espresso.png",
+      "category": "drinks",
+      "nonAlcoholic": true,
+      "orderCount": 0
+    },
+    {
+      "id": "29",
+      "name": "Cappuccino",
+      "description": "Creamy espresso with steamed milk and a touch of foam.",
+      "price": 30,
+      "image": "/images/cappuccino.png",
+      "category": "drinks",
+      "nonAlcoholic": true,
+      "orderCount": 0
+    },
+    {
+      "id": "30",
+      "name": "Caffè Macchiato",
+      "description": "Espresso with a small amount of steamed milk, creating a rich flavor.",
+      "price": 30,
+      "image": "/images/caffe_macchiato.png",
+      "category": "drinks",
+      "nonAlcoholic": true,
+      "orderCount": 1
+    }
+  ],
+  "users": [
+    {
+      "name": "user",
+      "address": "Kulladalsgatan 26a",
+      "postalCode": "215 64",
+      "city": "Malmö",
+      "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+      "email": "user@google.com",
+      "id": "0153"
+    },
+    {
+      "id": "ccff",
+      "name": "user",
+      "address": "userstreet",
+      "postalCode": "123 45",
+      "city": "userville",
+      "email": "user",
+      "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "2ba7",
+      "userId": "0153",
+      "courseId": "2"
+    },
+    {
+      "id": "2a1b",
+      "userId": "0153",
+      "courseId": "12"
+    },
+    {
+      "id": "2b55",
+      "userId": "0153",
+      "courseId": "13"
+    },
+    {
+      "id": "1a35",
+      "userId": "0153",
+      "courseId": "15"
+    },
+    {
+      "id": "dabf",
+      "userId": "0153",
+      "courseId": "22"
+    },
+    {
+      "id": "4e4a",
+      "userId": "0153",
+      "courseId": "23"
+    },
+    {
+      "id": "7f01",
+      "userId": "0153",
+      "courseId": "26"
+    },
+    {
+      "id": "ecef",
+      "userId": "ccff",
+      "courseId": "11"
+    },
+    {
+      "id": "35ca",
+      "userId": "ccff",
+      "courseId": "17"
+    },
+    {
+      "id": "70d6",
+      "userId": "ccff",
+      "courseId": "22"
+    }
+  ],
+  "orders": [
+    {
+      "id": "a659",
+      "userId": "0153",
+      "contactInfo": {
+        "name": "user",
+        "address": "Kulladalsgatan 26a",
+        "postalCode": "215 64",
+        "city": "Malmö",
+        "email": "user@google.com"
+      },
+      "paymentMethod": "swish",
+      "items": [
+        {
+          "id": "11",
+          "name": "Gnocchi al Pesto",
+          "price": 80,
+          "quantity": 1
+        },
+        {
+          "id": "16",
+          "name": "Panna Cotta ai Frutti di Bosco",
+          "price": 55,
+          "quantity": 1
+        },
+        {
+          "id": "24",
+          "name": "Pepsi",
+          "price": 30,
+          "quantity": 1
+        }
+      ],
+      "createdAt": "2025-06-21T14:25:08.206Z"
+    },
+    {
+      "id": "8244",
+      "userId": "0153",
+      "contactInfo": {
+        "name": "user",
+        "address": "Kulladalsgatan 26a",
+        "postalCode": "215 64",
+        "city": "Malmö",
+        "email": "user@google.com"
+      },
+      "paymentMethod": "swish",
+      "items": [
+        {
+          "id": "7",
+          "name": "Spaghetti alla Carbonara",
+          "price": 70,
+          "quantity": 1
+        },
+        {
+          "id": "15",
+          "name": "Tiramisù",
+          "price": 50,
+          "quantity": 1
+        },
+        {
+          "id": "18",
+          "name": "Chianti Classico",
+          "price": 120,
+          "quantity": 1
+        }
+      ],
+      "createdAt": "2025-06-24T10:31:53.614Z"
+    },
+    {
+      "id": "deb7",
+      "userId": "ccff",
+      "contactInfo": {
+        "name": "user",
+        "address": "userstreet",
+        "postalCode": "123 45",
+        "city": "userville",
+        "email": "user"
+      },
+      "paymentMethod": "swish",
+      "items": [
+        {
+          "id": "11",
+          "name": "Gnocchi al Pesto",
+          "price": 80,
+          "quantity": 1
+        },
+        {
+          "id": "12",
+          "name": "Lasagne alla Bolognese",
+          "price": 90,
+          "quantity": 1
+        },
+        {
+          "id": "15",
+          "name": "Tiramisù",
+          "price": 50,
+          "quantity": 1
+        },
+        {
+          "id": "17",
+          "name": "Cannoli Siciliani",
+          "price": 55,
+          "quantity": 1
+        },
+        {
+          "id": "24",
+          "name": "Pepsi",
+          "price": 30,
+          "quantity": 2
+        }
+      ],
+      "createdAt": "2025-06-25T08:33:30.491Z"
+    }
+  ]
+}
